@@ -1,0 +1,9 @@
+{
+  "name": "js-challenges",
+  "version": "0.0.0",
+  "description": "JsChallenges",
+  "main": "app.js",
+  "author": {
+    "name": "azadok"
+  }
+}
