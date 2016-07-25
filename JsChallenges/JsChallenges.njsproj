@@ -5,7 +5,8 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
     <Name>JsChallenges</Name>
     <RootNamespace>JsChallenges</RootNamespace>
-    <ScriptArguments>"input.txt"</ScriptArguments>
+    <ScriptArguments>
+    </ScriptArguments>
   </PropertyGroup>
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -13,7 +14,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e6cd5171-f477-44f3-a92d-92241838222d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pointInCircle.js</StartupFile>
+    <StartupFile>AdvancedCalculator.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -31,6 +32,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AdvancedCalculator.js" />
     <Compile Include="pointInCircle.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
