@@ -14,7 +14,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>e6cd5171-f477-44f3-a92d-92241838222d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>AdvancedCalculator.js</StartupFile>
+    <StartupFile>Challenges\AdvancedCalculator.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -32,12 +32,13 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="AdvancedCalculator.js" />
-    <Compile Include="pointInCircle.js" />
+    <Compile Include="Challenges\AdvancedCalculator.js" />
+    <Compile Include="Challenges\pointInCircle.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Challenges\" />
     <Folder Include="typings\" />
     <Folder Include="typings\globals\" />
     <Folder Include="typings\globals\node\" />
